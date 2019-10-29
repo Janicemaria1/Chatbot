@@ -1,0 +1,77 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "cards",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "cash",
+         "patterns": ["Do you take cash on delivery?", "can i pay in cash?", "Are you cash only?" ],
+         "responses": ["Cash on Delivery option is available in Mumbai, Delhi, Dehradun and Banglore"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "menu",
+         "patterns": ["what is on menu?", "what do i eat?", "What do u serve?","menu","what is menu?"],
+         "responses": ["We have pizza, shakes, burgers, fries" ]
+        },
+        {"tag": "juice",
+         "patterns": ["what are the juices?", "what are shakes?", "What drinks are available?","what beverages are available","juices","drinks","What is the cost of juice?","how much is the price of juice?"],
+         "responses": ["Following juices are available : \n 1. Mango Smoothie \t $5\n 2. Fererro Chocolate Shake \t $7\n 3. Oreo Blast \t $5\n 4. Strawberry mocktail \t $6" ]
+        },
+        {"tag": "pizza",
+         "patterns": ["what are the different pizzas available?", "what pizzas do u serve?", "pizzas?","What is the cost of pizzas?","how much is the price of pizza?"],
+         "responses": ["Following pizzas are available : \n 1. Margherita \t $2 \n 2. Peppy Paneer \t $3 \n 3. Veggie Farmhouse \t $3 \n 4. Cheesy Mexicana \t $2 \n Pizza can be cheese burst, pan based and thin crust" ]
+        },
+        {"tag": "burgers",
+        "patterns": ["what are the different burgers available?", "what burgers do u serve?", "burgers?","What is the cost of burgers?","how much is the price of burger?"],
+        "responses": ["Following burger are available : \n 1. Paneer Burger \t $2\n 2. Aloo Tikki Burger \t $2\n 3. Mexican cheese Burger  \t $3\n 4. Maharaja Burger \t $5\n $1 for extra cheese slices" ]
+        },
+        {"tag": "car",
+        "patterns": ["what are the different types of car  available?", "what cars do u have?", "cars?","What is the cost of cars?","how much is the price of cars?"],
+        "responses": ["Following cars are available: \n 1. limo \t $2\n 2. waganor \t $3\n 3. suv  \t $3\n 4. maruti \t $3\n $1 suzuki" ]
+        },
+
+        {"tag": "delivery_time",
+        "patterns": ["when will food be delivered?", "how long will it take to deliver?" ],
+        "responses": ["Normal delivery time is around 30-40 minutes" ]
+        },
+        {"tag": "order_delay",
+        "patterns": ["why is the delivery taking so long?", "why is my order delayed?","when will i receive my order it's already much delayed"],
+        "responses": ["Sorry for the inconvenience caused,your order will be delivered soon" ]
+        },
+        {"tag": "offers",
+        "patterns": ["what is the offer?", "do i get a discount?"],
+        "responses": ["Orders above $100 get free delivery and orders above $300 get a free combo meal of their choice." ]
+        },
+        {"tag": "helpline_number",
+        "patterns": ["where can I register complaints?","whats helpline number?"," how can I contact?", "How can I be in touch with You?", "what’s your email id?"],
+        "responses": ["You can write to us on carsworld@gmail.com or you can call on our Helpline  7842107874" ]
+        },
+        {"tag":"invoice",
+         "patterns":["Can I get an invoice for this order?","I want an invoice for this order"],
+         "responses":["Yes sure,your invoice will be mailed to you on your registered email address"]
+        },
+        {"tag": "cancel_order",
+        "patterns": ["I want to cancel my order","Can I please cancel the order?","I have my mistake placed the order,can I change it or cancel it?"],
+        "responses": ["I m sorry but once the order has been placed it cant be cancelled but may I know the reason for cancellation" ]
+        }
+   ]
+}

@@ -1,0 +1,58 @@
+{"intents1": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["See ya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go", "Talk to you later", "Goodbye!", "Take Care"],
+         "context_set": ""
+        },
+        {"tag": "department",
+         "patterns": ["what departments?", "what all departments?", "any departments?", "are there departments?", "name the departments"],
+         "responses": ["There are 3 major departments: Neurology, cardiology and Oncology"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "Your Name?", "what do people call you?"],
+         "responses": ["You can call me Hospital Assistant.", "I'm Hospital Assistant", "I'm Hospital Assistant and it is a pleasure to help you.", "Hospital Assistant"],
+         "context_set": ""
+        },
+        {"tag": "appointment",
+         "patterns": ["I’d like to place an appointment ", "I need an appointment to the doctor", "can you place an appointment for me?", "where can I place an appointment?"],
+         "responses": ["We request you to visit the appointment counter in the first floor or contact 02250678521", "Kindly visit the appointment counter in the first floor or contact 0220678521", "Please visit the appointment counter in the first floor for details or contact 0220678521"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "hours of operation", "what are your working hours?", "specify working hours"],
+         "responses": ["We are open 24/7"],
+         "context_set": ""
+        },
+		{"tag": "doctors",
+         "patterns": ["which doctors are there?", "doctors and their specialization", "name the doctors", "doctors with speciality"],
+         "responses": ["Dr. Gabrielle : Neurologist, Dr. Patil : Cardiologist, Dr. Mendez : Oncologist"],
+         "context_set": ""
+        },
+		{"tag": "Emergency",
+         "patterns": ["Emergency contacts", "whom to contact during emergency", "Emergency", "doctors available during emergency"],
+         "responses": ["For emergency contact Dr. Mishra : 7758632145 or 14466", "Emergency : 7758632145 or 14466"],
+         "context_set": ""
+        },
+		{"tag": "Ambulance",
+         "patterns": ["how to contact ambulance", "ambulance contact", "I need ambulance service"],
+         "responses": ["Kindly contact 102"],
+         "context_set": ""
+        },
+		{"tag": "rooms",
+         "patterns": ["Please provide room numbers", "Room numbers", "Where is neurology dept?","where is cardiology dpt?", "where is oncology dpt?", "what are your rooms numbers"],
+         "responses": ["Neurology Dept: room 105, Cardiology Dept: room 203, Oncology Dept: room 308"],
+         "context_set": ""
+        },
+		{"tag": "charges",
+         "patterns": ["Please provide charges of doctors", "give me charges", "tell me fees"],
+         "responses": ["Dr. Gabrielle : Neurologist : Rs 2000 for checking, Dr. Patil : Cardiologist : Rs 2500, Dr. Mendez : Oncologist : Rs 1500 Note: Charges may vary based on severity of the patient"],
+         "context_set": ""
+        }
+   ]
+}
